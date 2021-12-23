@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0 auto;
+	}
+body{
+	background-image: url(../img/playa2.jpg);
+	height: 680px;
+	width: 100%;
+	background-position: center center;	  
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+.Video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  width: 100%;
+  height: 100%; 
+}
+
+header {
+	width:100%;
+	height:200px;
+	background-color:rgba(131,230,239,0.76);
+	background-repeat: round; 
+	font-size: 100;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-weight: 100;	
+	top:10px;;
+	position:relative;
+	text-align:center;
+	}
+header h1{
+	color: #E4DE8B;
+	font-size: 50px;
+	font-family:Montserrat Thin;	
+	top:50%;
+	position:relative;
+	text-align:center;
+	}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ nav {
+	background-color: #333;
+    width:100%;
+	height:8%;
+	padding-top: 0px;
+	 
+    }
+
+ul {
+width:100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+	font-size: 18px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px ;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #3EFFDF;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*
+.menu{
+	font-size: 18px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	display: block;
+	text-decoration: none;
+	width: 80px;
+	text-align: center;
+	color: #1E1E1E;
+	
+}
+/* Efectos de menu */
+/*	
+.menu:hover{
+	text-decoration: none;
+	display: block;
+		
+	color:aliceblue;
+	background-color:hsla(158,71%,56%,0.46); 
+}*/
+.p_inicio{
+	color: aliceblue;
+	font-family:Montserrat;
+	font-size: 16px;
+	font-weight: 300px;
+	text-align: center;
+	margin:  100px 120px 100px 120px; 
+	background-color:rgba(131,230,239,0.86);
+	padding: 15px;
+}
+
+.titulo{
+	color: #E4DE8B;
+	font-family:Montserrat Thin;
+	font-size: 56px;
+	font-weight: 300px;
+	text-align: center;
+	margin: 150px 0 0 50px ;
+	background-color:rgba(131,230,239,0.86);
+	
+}
+.titulo2{
+	
+}
+
+.texto_n{
+color:aliceblue;
+	font-family:Montserrat;
+	text-align: justify;
+	font-size: 18px;
+	font-weight: 300px;
+	padding: 15px 10px 10px 15px;
+	
+}
+section{
+	width: 100%;
+	height: 280px;
+}
+	
+.art_izq h2{
+	color:#E4DE8B;
+	font-family:Montserrat thin;
+	font-size:50px;
+	text-align:left;
+	position:relative;
+	padding: 10px;
+	}
+
+.art_izq p{
+	color:aliceblue;
+	font-family:Montserrat;
+	font-size:12px;
+	text-align:justify;
+	margin:15px;
+	}
+
+.art_der h2{
+color:#E4DE8B;
+	font-family:Montserrat thin;
+font-size:50px;
+text-align:left;
+position:relative;
+padding: 10px;
+}
+
+.art_der p{
+	color:aliceblue;
+	font-family:Montserrat;
+	font-size:12px;
+	text-align:justify;
+	margin:15px;
+	}
+.art_izq2 h2{
+	color:#E4DE8B;
+	font-family:Montserrat thin;
+	font-size:50px;
+	text-align:left;
+	position:relative;
+	padding: 10px;
+	}
+
+.art_izq2 p{
+	color:aliceblue;
+	font-family:Montserrat;
+	font-size:12px;
+	text-align:justify;
+	margin:15px;
+	}
+
+.art_der2 h2{
+color:#E4DE8B;
+	font-family:Montserrat thin;
+font-size:50px;
+text-align:left;
+position:relative;
+padding: 10px;
+}
+
+.art_der2 p{
+	color:aliceblue;
+	font-family:Montserrat;
+	font-size:12px;
+	text-align:justify;
+	margin:15px;
+	}
+	
+						
+#izquierda{
+	width:100%;
+	height:auto;
+	}
+
+.art_izq{
+	width:49%;
+	height:200px;
+	background-color:hsla(158,71%,56%,0.86);
+	float: left;
+	margin-top: 17px;
+	margin-bottom: 10px;
+	
+}
+.art_der{
+	width:49%;
+	height:200px;
+	background-color:hsla(158,71%,56%,0.86);
+	float: right;
+	margin: 1px;
+	margin-top: 17px;
+	margin-bottom: 10px;
+	
+}
+.art_izq2{
+	width:49%;
+	height:400px;
+	background-color:hsla(158,71%,56%,0.86);
+	float: left;
+	margin-top: 17px;
+	margin-bottom: 10px;
+	
+}
+.art_der2{
+	width:49%;
+	height:400px;
+	background-color:hsla(158,71%,56%,0.86);
+	float: right;
+	margin: 1px;
+	margin-top: 17px;
+	margin-bottom: 10px;
+	
+}
+.lista{
+	color:aliceblue;
+	font-family:Montserrat;
+	font-size:12px;
+	text-align:justify;
+	margin:15px;
+	}
+
+	
+li{
+	        color:#E4DE8B;
+	}
+#fotos{
+background-color:hsla(158,71%,56%,0.86);
+	width: 100%;
+	height: 300px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#fotos2{
+background-color:rgba(44,181,167,0.86);	
+	width: 100%;
+	height: 900px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#foto{
+float: left;
+	margin: 15px;
+}
+#foto1{
+float: left;
+	margin: 15px;
+}
+#foto2{
+float: left;
+	margin: 15px;
+
+}
+
+#foto3{
+float: left;
+	margin: 15px;
+}
+
+
+#foto4{
+float: left;
+	margin: 15px;
+}
+
+
+#foto5{
+float: left;
+	margin: 15px;
+}
+
+
+#foto6{
+float: left;
+	margin: 15px;
+}
+	
+footer{
+	width:100%;
+	height:50px;
+	background-color:rgba(131,230,239,0.90);
+	clear:both;
+	}
+footer p{
+	color:aliceblue;
+	font-family:Montserrat SemiBold;
+	font-size:20px;
+	padding-top:13px;
+}
+/*Contactenos*/
+
+#c_contactenos{
+	width:100%;
+	height:200px;
+	background-image: url(../img/playa2.jpg);
+	background-repeat: round; 
+	font-size: 100;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-weight: 100;	
+	top:50%;
+	position:relative;
+	text-align:center;
+	border:dotted hsla(350,43%,97%,1.00);
+	}
+#c_contactenos h1{
+	color:cadetblue;
+	font-size: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
+	top:50%;
+	position:relative;
+	text-align:center;
+	}
+			

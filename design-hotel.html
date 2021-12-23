@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design Hotel — Reservallín</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+	  	<a href="https://wa.me/573154652852?text=Me%20gustaría%20saber%20más%20información" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+     <a class="navbar-brand" style="color: rgba(238,238,238,1.00)" >Reservallín</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+			  <li class="nav-item active">
+              <a class="nav-link" href="Contactenos.html">Contáctenos</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+           
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/hoteles/3/7.jpg" alt="First slide">
+                
+              </div>
+              
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+	  
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <ul class="list-unstyled">
+              <li class="media">
+                <img class="mr-3 rounded-circle" src="img/icons/lupa.png" alt="Generic placeholder image">
+                <div class="media-body">
+                  <h2 class="mt-0 mb-1">Design Hotel</h2>
+                  <p class="mb-0">El Design Hotel se encuentra en Medellín, a 2,1 km de Pueblito Paisa y a 3,5 km de la avenida 70, y ofrece alojamiento con salón compartido, WiFi gratuita en todas las instalaciones y aparcamiento privado gratuito.</p>
+<p class="mb-0">Todas las habitaciones cuentan con cocina y baño privado.</p>
+ <p class="mb-0">El alojamiento cuenta con discoteca y cocina compartida.</p>
+
+ <p class="mb-0">Las habitaciones disponen de horno.</p>
+
+ <p class="mb-0">El establecimiento cuenta con terraza.</p>
+
+ <p class="mb-0">El Design Hotel se encuentra a 6 km del parque El Poblado y del parque Lleras. El aeropuerto Olaya Herrera, el más cercano, está a 2 km.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="row">
+            <div class="col-sm-12 col-12">
+              <div class="card">
+                <img class="card-img-top" src="img/hoteles/3/2.jpg" alt="Card image cap">
+               
+              </div>
+            </div>
+            <div class="col-sm-12 col-12">
+              <div class="card">
+                <img class="card-img-top" src="img/hoteles/3/3.jpg" alt="Card image cap">
+                
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-12">
+              <div class="card">
+                <img class="card-img-top" src="img/hoteles/3/4.jpg" alt="Card image cap">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="col-lg-4 col-12">
+          <div class="row mx-0">
+            <div class="col-12 card bg-light mx-auto">
+              <h3 class="text-center card-header">Haz tu reserva</h3>
+              <form class="card-body" method="POST" action="php/reservas.php" enctype="multipart/form-data">
+				  <div class="form-group row">
+                  <label for="hotel" class="col-form-label">Hotel</label>
+                  <select class="form-control" name="hotel" id="hotel">
+					<option value="Design Hotel">Design Hotel</option>
+                  </select>
+                </div>
+                <div class="form-group row">
+                  <label for="habitacion" class="col-form-label">Tipo de habitación</label>
+                  <select class="form-control" name="habitacion" id="habitacion">
+					<option value="Habitación individual">Habitación individual</option>
+					  <option value="Habitación individual con balcón">Habitación individual con balcón</option>
+                    <option value="Habitación doble">Habitación doble</option>
+                    <option value="Habitación doble con balcón">Habitación doble con balcón</option>
+                  </select>
+                </div>
+				  <div class="form-group row">
+                  <label for="adultos" class="col-form-label">Adultos</label>
+                  <select class="form-control" name="adultos" id="adultos">
+					<option value="1">1</option>
+					<option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+				  <div class="form-group row">
+                  <label for="ninos" class="col-form-label">Niños</label>
+                  <select class="form-control" name="ninos" id="ninos">
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <div class="form-group row">
+                  <label for="fechaentrada" class="col-form-label">Fecha de entrada:&nbsp; </label>
+                  <input type="date" id="fechaentrada" name="fechaentrada" value="2020-12-20" min="2020-12-20" max="2020-12-31">
+                </div>
+				  <div class="form-group row">
+                  <label for="fechasalida" class="col-form-label">Fecha de salida:&nbsp; &nbsp; &nbsp; </label>
+                  <input type="date" id="fechasalida" name="fechasalida" value="2021-12-31" min="2020-12-20" max="2021-12-31">
+                </div>
+               
+				  <div class="form-group row">
+                  <label for="nombre" type="text"  class="col-form-label">Nombre</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text" id="basic-addon1">☺</div>
+                    </div>
+                    <input type="text" class="form-control" name="nombre" id="nombre" aria-describedby="basic-addon2">
+                  </div>
+                </div>
+				  
+				  <div class="form-group row">
+                  <label for="celular" type="text"  class="col-form-label">Celular</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text" id="basic-addon2">✆</div>
+                    </div>
+                    <input type="text" class="form-control" name="celular" id="celular" aria-describedby="basic-addon2">
+                  </div>
+                </div>
+				   <div class="form-group row">
+                  <label for="email" type="email"  class="col-form-label">Correo electrónico</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text" id="basic-addon3">@</div>
+                    </div>
+                    <input type="text" class="form-control" name="email" id="email" aria-describedby="basic-addon2">
+                  </div>
+                </div>
+                <p class="text-center"><button type='submit'class="btn btn-danger" role="button">Enviar</button></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    
+       <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="row">
+            <div class="col-lg-12 col-12">
+              <h3 align="center" >RESERVALLIN</h3>
+              <hr>
+              <p align="center">Reservallin es una empresa comprometida en la búsqueda del máximo beneficio social y empresarial, especializada en ofrecer servicios de alojamiento urbano (Hoteles), caracterizados por su decoración temática y la búsqueda permanente de servicios y productos que sitúan al cliente como centro de una experiencia fresca, creativa y cercana.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <footer class="text-center">
+		<hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © Reservallin. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
